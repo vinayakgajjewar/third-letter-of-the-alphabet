@@ -2,7 +2,8 @@
 
 int a;
 
-int foo() {
+int foo()
+{
     int a = 15;
 
     /*
@@ -11,12 +12,14 @@ int foo() {
     return a;
 }
 
-int bar() {
+int bar()
+{
     int a = 20;
     return a;
 }
 
-int main() {
+int main()
+{
     a = 7;
     printf("a: %d\n", a);
     int foo_val = foo();
